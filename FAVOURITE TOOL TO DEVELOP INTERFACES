@@ -24,11 +24,13 @@ Plugins
 If you'd like to supplement the core functionality of the IDE with additional features, you can extend IntelliJ IDEA with plugins. We support an extensive plugin ecosystem that meets practically all of the needs a developer might have. Check out the Kubernetes plugin to manage containerized applications, or get a cute Nyan Progress Bar! You can install all the plugins via Preferences | Settings / Plugins.
 
 Deep code insight
-Though designed primarily for Java development, IntelliJ IDEA understands many other programming languages, including Groovy, Kotlin, Scala, JavaScript, TypeScript, and SQL, and it provides smart coding assistance for each of them. Initial indexing of source code allows the IDE to create a virtual map of your project. Using the information from the virtual map, it can detect errors on the fly, suggest code completion variants with precise context-awareness, perform refactoring, and more.
+Though designed primarily for Java development, IntelliJ IDEA understands many other programming languages, including Groovy, Kotlin, Scala, JavaScript, TypeScript, and SQL, and it provides smart coding assistance for each of them. Initial indexing of source code allows the IDE to create a virtual map of your project. 
+Using the information from the virtual map, it can detect errors on the fly, suggest code completion variants with precise context-awareness, perform refactoring, and more.
 
 
 Inspections and context actions
-IntelliJ IDEA is very good at checking over the quality and validity of your code with on-the-fly inspections. These inspections help you code faster, comply with the highest quality standards, and stay confident through the whole development process. We provide a host of standard inspections, as well as dozens of framework-specific ones covering a wide range of problems, such as Spring bean class autowiring errors, etc.
+IntelliJ IDEA is very good at checking over the quality and validity of your code with on-the-fly inspections. These inspections help you code faster, comply with the highest quality standards, and stay confident through the whole development process. 
+We provide a host of standard inspections, as well as dozens of framework-specific ones covering a wide range of problems, such as Spring bean class autowiring errors, etc.
 
 If IntelliJ IDEA finds any issues, it offers to help solve them via context actions, which include quick-fixes for highlighted errors and intention actions for changing your code if the issues are minor. To invoke a context action, click the light bulb icon (or press Alt+Enter).
 
@@ -91,15 +93,20 @@ You can run your application in IntelliJ IDEA by simply clicking the green play 
 
 
 Test
-IntelliJ IDEA supports the most popular testing frameworks, like JUnit, TestNG, Cucumber, Arquillian JUnit, and Selenium (available in the plugin Marketplace). The IDE is equipped with an environment and a set of tools for developing and running effective and readable automated tests. You can switch between test classes and source code with a shortcut, run multiple tests, view statistics for each test, and more. For analytics, use the Code Coverage feature which shows the percentage of code covered by unit tests.
+IntelliJ IDEA supports the most popular testing frameworks, like JUnit, TestNG, Cucumber, Arquillian JUnit, and Selenium (available in the plugin Marketplace). 
+The IDE is equipped with an environment and a set of tools for developing and running effective and readable automated tests. You can switch between test 
+classes and source code with a shortcut, run multiple tests, view statistics for each test, and more. 
+For analytics, use the Code Coverage feature which shows the percentage of code covered by unit tests.
 
 
 Debug
-A debugger is an indispensable tool for detecting bugs and reviewing what's happening under the hood of your program. To prepare for debugging, set breakpoints in the places where you want to suspend the program’s execution and examine the program’s state and behavior. Once the breakpoints are set, you can start debugging. You’ll find the results in the Debug tool window.
+A debugger is an indispensable tool for detecting bugs and reviewing what's happening under the hood of your program. 
+To prepare for debugging, set breakpoints in the places where you want to suspend the program’s execution and examine the program’s state and behavior. 
+Once the breakpoints are set, you can start debugging. You’ll find the results in the Debug tool window.
 
-IntelliJ IDEA’s debugger has several unique features. When you debug your code, the IDE shows you variable values in the source code next to their usages and lets you change the values. You can also use the Smart Step-Into action to choose the specific method call you want to debug.
+IntelliJ IDEA’s debugger has several unique features. When you debug your code, the IDE shows you variable values in the source code next to 
+their usages and lets you change the values. You can also use the Smart Step-Into action to choose the specific method call you want to debug.
 
-To learn about all the other debugger features, check out this video playlist.
 
 Built-in tools and integrations
 IntelliJ IDEA comes with mission-critical built-in tools and integrations that help you work in a familiar environment and allow you to avoid switching between applications.
@@ -116,7 +123,6 @@ IntelliJ IDEA’s built-in terminal lets you work with the command-line shell fr
 Collaborative development (Code With Me)
 IntelliJ IDEA provides a service for collaborative development and pair programming – Code With Me. It lets you share the project currently open in your IDE with others so you can work on it together in real-time. Code With Me also features video and voice calls from the IDE, allowing you to organize both 1-on-1 meetings and group sessions with dozens of participants.
 
-You can learn all about Code With Me in this series of blog posts.
 
 
 Space integration
@@ -156,8 +162,15 @@ Deployment
 To keep up with modern software development, IntelliJ IDEA Ultimate offers integrations with the most popular container orchestration systems – Kubernetes and Docker. We also have third-party plugins for deploying code to AWS, Google Cloud, and Azure.
 
 
-
 Docker
 IntelliJ IDEA fully supports Docker integration. You can run and debug your applications in Docker containers, download and build images, run multi-container applications using Docker Compose, and more, all from the IDE.
 
-IntelliJ IDEA Ultimate provides integration with Docker out of the box. For IntelliJ IDEA Community Edition, you can download the Docker plugin from JetBrains Marketplace by going to Preferences/Settings | Plugins from inside your IDE.
+
+Links:
+
+main web: https://www.jetbrains.com/idea/
+
+ressources: 
+https://www.javatpoint.com/intellij-idea-feature
+https://en.wikipedia.org/wiki/IntelliJ_IDEA
+https://www.codementor.io/@duykhoa12t/three-features-of-intellij-that-you-will-love-x4ky49fdj
