@@ -1,11 +1,7 @@
-IntelliJ IDEA is an intelligent, context-aware IDE for working with Java and other JVM languages like Kotlin, Scala, and Groovy on all sorts of applications. Additionally, IntelliJ IDEA Ultimate can help you develop full-stack web applications, thanks to its powerful integrated tools, support for JavaScript and related technologies, and advanced support for popular frameworks like Spring, Spring Boot, Jakarta EE, Micronaut, Quarkus, Helidon. Moreover, you can extend IntelliJ IDEA with free plugins developed by JetBrains, allowing you to work with other programming languages, including Go, Python, SQL, Ruby, and PHP.
-
-Developer ergonomics
-Every aspect of IntelliJ IDEA is built to provide you with a seamless out-of-the-box experience. It provides quick access to all the features and integrated tools that are important to your work, as well as a wide range of customization options. You can fine-tune everything to support your workflow: set shortcuts, install plugins, customize the interface to your liking, and more.
-
-
-Easy start up
-Even if this is your first time using an IDE, it shouldn’t take you long to get up and running with your first project. In the New Project wizard, you can set the project type, Java version, and supported build tools (like Maven and Gradle); IntelliJ IDEA will configure all the remaining settings for you. This means you’ll be able to start working just moments after launching IntelliJ IDEA. You can also open projects, import existing Maven or Gradle projects, and pull projects from Version Control Systems.
+IntelliJ IDEA is an intelligent, context-aware IDE for working with Java and other JVM languages like Kotlin, Scala, and Groovy on all sorts of applications.
+Additionally, IntelliJ IDEA Ultimate can help you develop full-stack web applications, thanks to its powerful integrated tools, support for JavaScript and related technologies,
+and advanced support for popular frameworks like Spring, Spring Boot, Jakarta EE, Micronaut, Quarkus, Helidon. 
+Moreover, you can extend IntelliJ IDEA with free plugins developed by JetBrains, allowing you to work with other programming languages, including Go, Python, SQL, Ruby, and PHP.
 
 
 Keyboard shortcuts for everything
@@ -86,21 +82,12 @@ Find Usages
 It is best practice to find and analyze all the usages of a code element before changing it. By default, if you select a symbol in the source code, IntelliJ IDEA will automatically highlight all its usages in the current file. If you need to see the list of usages throughout your project, place the caret inside the symbol and invoke the Find Usages action via ⌥F7 on macOS or Alt+F7 on Windows and Linux.
 
 
-Framework-specific navigation ULTIMATE
-When working with frameworks in IntelliJ IDEA, it is possible to navigate through your code using the gutter icons. Click on them to see a list of all the navigation options each framework supports. What’s more, the URLs are also clickable, allowing you to get from the client to the service.
-
 Run, test, and debug
 IntelliJ IDEA comes with a powerful toolset for setting run and build parameters for your application and debugging code, as well as applying and developing JUnit tests right in the IDE.
 
 
 Run
 You can run your application in IntelliJ IDEA by simply clicking the green play button in the toolbar at the top of the window or near a class declaration in the editor gutter. If you need to customize how your program starts up, you can use run/debug configurations that contain various run and build properties, including the desired JDK/JRE, the environment in which you want to run your project, and more.
-
-
-Run Targets ULTIMATE
-The Run Targets feature lets you run, test, profile, and debug your application in Docker containers and on remote machines. IntelliJ IDEA Ultimate provides the ability to run Java applications and JUnit tests, as well as Maven, Gradle, Micronaut, Maven-based Quarkus, and Spring Boot projects on Docker, SSH, and WSL targets.
-
-Check out this blog post for more information.
 
 
 Test
@@ -136,18 +123,6 @@ Space integration
 IntelliJ IDEA offers integration with JetBrains Space, an all-in-one solution for software projects and teams. Connect IntelliJ IDEA to your Space organization to view and clone project repositories, review your teammates’ code, and write Space Automation scripts.
 
 
-Database support ULTIMATE
-You can manage databases right from the IDE with the Database tools that are shipped with IntelliJ IDEA Ultimate. Take advantage of intelligent coding assistance when editing SQL queries, connect to live databases, run queries, browse and export data, and even manage your schemes in a visual interface.
-
-
-Profiler ULTIMATE
-The built-in profiler helps you to optimize the performance of your application by analyzing your code and providing you with accurate info about its CPU-intensive and memory-intensive sections. In IntelliJ IDEA, you can open *.jfr and *.hprof snapshots, attach the profiler to running processes, and view live charts that visualize CPU and memory consumption in running applications. IntelliJ IDEA’s integration with the Async Profiler and Java Flight Recorder profiler tools allows you to do all this right from the IDE.
-
-
-HTTP Client ULTIMATE
-If you develop a web service, you will likely test it by sending and receiving HTTP requests. Such requests are stored in .http or .rest files, which you can create, edit, and execute in the HTTP client. This tool is built into the IntelliJ IDEA editor, providing extensive coding assistance for your HTTP requests, including code completion, highlighting, refactorings, and so on. You can easily access the HTTP Client from the source code: click the globe icon next to the URL and select Open in HTTP client.
-
-
 Decompiler
 IntelliJ IDEA comes with a built-in decompiler that lets you convert bytecode into human-readable Java code and then debug it. For example, when you open a library in a .jar file without having the source code for it, the IDE will display its readable contents. The yellow panel above the editor will inform you that you are working with a decompiled file. If you want to, you can set breakpoints in the decompiled code and debug it. Read this blog post to learn more about the decompiler.
 
@@ -172,55 +147,17 @@ JVM frameworks
 IntelliJ IDEA Ultimate provides first-class support for leading frameworks and technologies geared toward the development of modern applications and microservices. Your IDE comes with dedicated assistance for Spring and Spring Boot, Jakarta EE, JPA, Reactor, and other frameworks.
 
 
-Spring and Spring Boot ULTIMATE
-For the Spring and Spring Boot frameworks, IntelliJ IDEA Ultimate features smart code insight, inspections, instant code navigation, and highly customizable run configurations. It also offers built-in tools that let you run and test Spring apps and work with HTTP requests and database tools. You can also get an aggregated view of the client and server APIs used in your project for HTTP and WebSocket protocols in the Endpoints tool window.
-
-For a more detailed description of what IntelliJ IDEA has for Spring and Spring Boot, check out this webpage.
-
-
-Jakarta EE and MicroProfile API ULTIMATE
-In IntelliJ IDEA Ultimate, you can develop Java enterprise applications based on Jakarta EE and MicroProfile specifications. IntelliJ IDEA Ultimate supports all Jakarta EE features, including CDI, JPA, Batch, Bean Validation, JSF, JAX-RS, WebSocket, Servlets, JSP, JSON Binding and Processing, Security, and the EJB and JTA specifications.
-
-
-Microservice frameworks – Micronaut, Quarkus, Helidon ULTIMATE
-IntelliJ IDEA Ultimate has support for the most commonly used microservice frameworks – Micronaut, Quarkus, and Helidon. IntelliJ IDEA provides intelligent coding assistance, integration with Endpoints, and project creation wizards for all of them.
-
-
-Persistence frameworks – JPA, Hibernate ULTIMATE
-When you work with a vast number of Java objects, you may want to store them in a database. Persistence frameworks provide a collection of methods and classes to make this possible. IntelliJ IDEA Ultimate integrates with the most frequently used frameworks of this kind – Jakarta Persistence (JPA), Hibernate, and R2DBC. Right out of the box, you get framework-specific coding assistance, the opportunity to customize framework configurations, and the Persistence tool window for viewing and managing various JPA, Hibernate, and R2DBC items.
 
 Client-side and JavaScript development
 Need to work on UIs for your web application or develop with Node.js? IntelliJ IDEA Ultimate has got you covered! It includes all the features from WebStorm, our IDE for JavaScript and related technologies. All of these features are available either out of the box or via free plugins.
 
 
-Support for JavaScript and related technologies ULTIMATE
-You can use IntelliJ IDEA Ultimate to build applications with JavaScript, TypeScript, React, Vue, Angular, Node.js, and other related technologies. You can expect the same advanced coding assistance that you are used to when working with Java in all of them.
-
-
-HTML and CSS ULTIMATE
-You can also work with HTML and style sheets in IntelliJ IDEA. Just like with other languages and technologies, you will get advanced coding assistance, including code completion, navigation, and refactorings. Additionally, you can preview static HTML files right in the IDE. The changes you make to an HTML file or the linked CSS and JavaScript files will be saved, with the preview reloaded automatically.
-
-
-JavaScript debugging ULTIMATE
-In IntelliJ IDEA, you can run and debug your Node.js code and client-side apps with the help of Chrome. Put breakpoints, step through the code, set watches, and more – all from the editor with a unified experience across different kinds of applications, from vanilla JavaScript to TypeScript and Vue projects.
-
-
-Template Languages ULTIMATE
-IntelliJ IDEA Ultimate supports Thymeleaf, Velocity, Liquid, Go Template, Mustache, and other template languages. It provides code highlighting, autocompletion, inspections, context actions, and more smart features to help you develop templates with ease.
-
 Deployment
 To keep up with modern software development, IntelliJ IDEA Ultimate offers integrations with the most popular container orchestration systems – Kubernetes and Docker. We also have third-party plugins for deploying code to AWS, Google Cloud, and Azure.
 
-
-Application servers ULTIMATE
-IntelliJ IDEA provides integration with major application servers: Tomcat, JBoss, WebSphere, WebLogic, Glassfish, and more. Right from your IDE, you can start and stop local servers, connect to running remote servers, deploy your artifacts on those servers, and even debug your applications on them.
 
 
 Docker
 IntelliJ IDEA fully supports Docker integration. You can run and debug your applications in Docker containers, download and build images, run multi-container applications using Docker Compose, and more, all from the IDE.
 
 IntelliJ IDEA Ultimate provides integration with Docker out of the box. For IntelliJ IDEA Community Edition, you can download the Docker plugin from JetBrains Marketplace by going to Preferences/Settings | Plugins from inside your IDE.
-
-
-Kubernetes ULTIMATE
-IntelliJ IDEA Ultimate is fully integrated with Kubernetes – an open-source system for the deployment, scaling, and management of containerized applications. You are able to browse cluster objects and extract their configurations, view and download pod logs, run a shell in a pod, apply resource YAML configurations from the editor, and delete resources from a cluster. In addition to this, IntelliJ IDEA Ultimate offers both rich YAML support and basic JSON support, including auto-completion, quick documentation, inspections, and quick-fixes.
